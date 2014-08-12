@@ -1,0 +1,8 @@
+<ndntweets>
+	<database>
+		<driver>org.apache.derby.jdbc.EmbeddedDriver</driver>
+		<url>jdbc:derby:/tmp/ndntweetsdb;create=true</url>
+		<username></username>
+		<password></password>
+	</database>
+</ndntweets>

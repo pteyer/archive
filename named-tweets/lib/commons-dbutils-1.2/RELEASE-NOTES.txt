@@ -1,0 +1,12 @@
+$Id: RELEASE-NOTES.txt,v 1.1 2009/08/25 21:53:12 peyman_taher Exp $
+
+Commons DbUtils Package
+Release Notes
+
+
+You can find release notes for this and past releases online at
+
+http://commons.apache.org/dbutils/changes-report.html
+
+
+

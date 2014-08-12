@@ -1,0 +1,22 @@
+                        
+
+              commons-pool-1.5.1 RELEASE NOTES
+
+This is a patch release containing a fix for POOL-144, a regression introduced in version 1.5.
+
+Changes in this version include:
+
+
+Fixed Bugs:
+o  POOL-144:  When exhausted action is set to WHEN_EXHAUSTED_BLOCK, maxwait is positive and
+      client threads time out waiting for idle objects, capacity can be "leaked"
+      from GenericObjectPools and GeneritCkeyedObjectPools. 
+
+
+ 
+For complete information on commons-pool, including instructions on how to submit bug reports,
+patches, or suggestions for improvement, see the commons-pool website:
+
+http://commons.apache.org/pool/
+
+
