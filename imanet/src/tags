@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARGC_MAX	main_rcv.c	7;"	d	file:
+ARGC_MAX	main_snd.c	7;"	d	file:
+ARGC_MIN	main_rcv.c	6;"	d	file:
+ARGC_MIN	main_snd.c	6;"	d	file:
+AUX_ERR_H	error_helper.h	2;"	d
+HAVE_ARPA_INET_H	config.h	5;"	d
+HAVE_ATEXIT	config.h	8;"	d
+HAVE_FCNTL_H	config.h	11;"	d
+HAVE_INTTYPES_H	config.h	14;"	d
+HAVE_MEMORY_H	config.h	17;"	d
+HAVE_MEMSET	config.h	20;"	d
+HAVE_NETDB_H	config.h	23;"	d
+HAVE_NETINET_IN_H	config.h	26;"	d
+HAVE_SOCKET	config.h	29;"	d
+HAVE_STDDEF_H	config.h	32;"	d
+HAVE_STDINT_H	config.h	35;"	d
+HAVE_STDLIB_H	config.h	38;"	d
+HAVE_STRERROR	config.h	41;"	d
+HAVE_STRINGS_H	config.h	44;"	d
+HAVE_STRING_H	config.h	47;"	d
+HAVE_SYS_IOCTL_H	config.h	50;"	d
+HAVE_SYS_SOCKET_H	config.h	53;"	d
+HAVE_SYS_STAT_H	config.h	56;"	d
+HAVE_SYS_TYPES_H	config.h	59;"	d
+HAVE_TERMIO_H	config.h	62;"	d
+HAVE_UNISTD_H	config.h	65;"	d
+HEADDEF_H	headers.h	2;"	d
+IMANET_H	imanet.h	2;"	d
+IMANET_PKT_DATA_LEN	imanet.h	11;"	d
+IMANET_PKT_ETH_HEADER	imanet.c	/^const struct ether_header IMANET_PKT_ETH_HEADER = {$/;"	v	typeref:struct:ether_header
+IMANET_PKT_HDR_LEN	imanet.h	14;"	d
+IMANET_PKT_LEN	imanet.h	8;"	d
+LOG_FILE_PATH	main_rcv.c	10;"	d	file:
+LOG_FILE_PATH	main_snd.c	10;"	d	file:
+LOG_LEVEL_DEBUG	error_helper.h	/^	LOG_LEVEL_DEBUG = 0,$/;"	e	enum:log_level
+LOG_LEVEL_ERROR	error_helper.h	/^	LOG_LEVEL_ERROR = 3,$/;"	e	enum:log_level
+LOG_LEVEL_FATAL	error_helper.h	/^	LOG_LEVEL_FATAL = 4,$/;"	e	enum:log_level
+LOG_LEVEL_INFO	error_helper.h	/^	LOG_LEVEL_INFO = 1,$/;"	e	enum:log_level
+LOG_LEVEL_OFF	error_helper.h	/^	LOG_LEVEL_OFF = 5$/;"	e	enum:log_level
+LOG_LEVEL_WARN	error_helper.h	/^	LOG_LEVEL_WARN = 2,$/;"	e	enum:log_level
+MAX_CFG_LINE_LEN	error_helper.h	6;"	d
+MAX_FACE_LEN	psniffer.h	4;"	d
+MAX_LOG_LEN	error_helper.h	7;"	d
+MAX_PACKET_LEN	psniffer.h	5;"	d
+MTQUEUE_H	mtqueue.h	2;"	d
+PACKAGE	config.h	68;"	d
+PACKAGE_BUGREPORT	config.h	71;"	d
+PACKAGE_NAME	config.h	74;"	d
+PACKAGE_STRING	config.h	77;"	d
+PACKAGE_TARNAME	config.h	80;"	d
+PACKAGE_URL	config.h	83;"	d
+PACKAGE_VERSION	config.h	86;"	d
+PSNIFFER_H	psniffer.h	2;"	d
+STDC_HEADERS	config.h	89;"	d
+VERSION	config.h	92;"	d
+_REENTRANT	mtqueue.h	8;"	d
+back	mtqueue.h	/^	struct mtqueue_node *back;$/;"	m	struct:mtqueue	typeref:struct:mtqueue::mtqueue_node
+bufq	imanet.h	/^	struct mtqueue bufq;  \/** multithreaded queue used to buffer reads *\/$/;"	m	struct:imanet_handler	typeref:struct:imanet_handler::mtqueue
+cond	mtqueue.h	/^	pthread_cond_t cond;$/;"	m	struct:mtqueue
+data	imanet.h	/^	unsigned char data[IMANET_PKT_DATA_LEN];  \/** data payload *\/$/;"	m	struct:imanet_pkt
+data	mtqueue.h	/^	void *data;$/;"	m	struct:mtqueue_node
+destroy_all	main_rcv.c	/^static void destroy_all(void)$/;"	f	file:
+destroy_all	main_snd.c	/^static void destroy_all(void)$/;"	f	file:
+dev	imanet.h	/^	char *dev;  \/** device to read\/write from\/to *\/$/;"	m	struct:imanet_handler
+do_add_log	error_helper.c	/^static int do_add_log(const char *msg, enum log_level lev)$/;"	f	file:
+do_log	error_helper.h	23;"	d
+do_log_mute	error_helper.c	/^void do_log_mute(const char *msg, enum log_level lev)$/;"	f
+err_fatal	error_helper.h	92;"	d
+err_fatal_n	error_helper.h	93;"	d
+err_fatal_neg1	error_helper.h	99;"	d
+err_fatal_null	error_helper.h	102;"	d
+err_fatal_nzero	error_helper.h	100;"	d
+err_fatal_zero	error_helper.h	101;"	d
+err_warn	error_helper.h	90;"	d
+err_warn_n	error_helper.h	91;"	d
+err_warn_neg1	error_helper.h	95;"	d
+err_warn_null	error_helper.h	98;"	d
+err_warn_nzero	error_helper.h	96;"	d
+err_warn_zero	error_helper.h	97;"	d
+error_helper_destroy	error_helper.c	/^void error_helper_destroy(void)$/;"	f
+error_helper_init	error_helper.c	/^void error_helper_init(const char *logfpath, enum log_level lev)$/;"	f
+ethh	imanet.h	/^	struct ether_header ethh;  \/** ethernet header *\/$/;"	m	struct:imanet_pkt	typeref:struct:imanet_pkt::ether_header
+exit_failure	main_rcv.c	/^static void exit_failure(void)$/;"	f	file:
+exit_failure	main_snd.c	/^static void exit_failure(void)$/;"	f	file:
+fatal_log	error_helper.h	74;"	d
+fatal_log_n	error_helper.h	82;"	d
+front	mtqueue.h	/^	struct mtqueue_node *front;$/;"	m	struct:mtqueue	typeref:struct:mtqueue::mtqueue_node
+get_log_level	error_helper.c	/^enum log_level get_log_level(void)$/;"	f
+imanet_destroy	imanet.c	/^int imanet_destroy(struct imanet_handler *ih)$/;"	f
+imanet_handler	imanet.h	/^struct imanet_handler {$/;"	s
+imanet_init	imanet.c	/^int imanet_init(struct imanet_handler *ih, const char *dev)$/;"	f
+imanet_pkt	imanet.h	/^struct imanet_pkt {$/;"	s
+imanet_recv	imanet.c	/^int imanet_recv(struct imanet_handler *ih, struct imanet_pkt *buf)$/;"	f
+imanet_send	imanet.c	/^int imanet_send(struct imanet_handler *ih, const void *buf, size_t len)$/;"	f
+init_args	main_rcv.c	/^static int init_args(int argc, char *argv[])$/;"	f	file:
+init_args	main_snd.c	/^static int init_args(int argc, char *argv[])$/;"	f	file:
+init_bufq	imanet.c	/^static void init_bufq(struct imanet_handler *ih)$/;"	f	file:
+init_logger	main_rcv.c	/^static void init_logger(void)$/;"	f	file:
+init_logger	main_snd.c	/^static void init_logger(void)$/;"	f	file:
+init_pcap	imanet.c	/^static int init_pcap(struct imanet_handler *ih)$/;"	f	file:
+init_receiver_thread	imanet.c	/^static int init_receiver_thread(struct imanet_handler *ih)$/;"	f	file:
+interface	main_rcv.c	/^static char *interface = NULL;$/;"	v	file:
+interface	main_snd.c	/^static char *interface = NULL;$/;"	v	file:
+is_logfp_valid	error_helper.c	/^static int is_logfp_valid(void)$/;"	f	file:
+len	imanet.h	/^	uint16_t len;  \/** length of data in packet *\/$/;"	m	struct:imanet_pkt
+len	mtqueue.h	/^	size_t len;$/;"	m	struct:mtqueue_node
+llev	error_helper.c	/^static enum log_level llev = -1;$/;"	v	typeref:enum:log_level	file:
+lockq	mtqueue.c	/^static inline void lockq(struct mtqueue *q)$/;"	f	file:
+log_cmd_args	main_rcv.c	/^static void log_cmd_args(const int argc, char *argv[])$/;"	f	file:
+log_cmd_args	main_snd.c	/^static void log_cmd_args(const int argc, char *argv[])$/;"	f	file:
+log_debug	error_helper.h	39;"	d
+log_fatal	error_helper.h	42;"	d
+log_fatal_strerror	error_helper.h	53;"	d
+log_info	error_helper.h	40;"	d
+log_level	error_helper.h	/^enum log_level {$/;"	g
+log_warn	error_helper.h	41;"	d
+log_warn_strerror	error_helper.h	46;"	d
+logfmutex	error_helper.c	/^static pthread_mutex_t logfmutex;$/;"	v	file:
+logfp	error_helper.c	/^static FILE *logfp = NULL;$/;"	v	file:
+main	main_rcv.c	/^int main(int argc, char *argv[])$/;"	f
+main	main_snd.c	/^int main(int argc, char *argv[])$/;"	f
+make_packet	imanet.c	/^struct imanet_pkt *make_packet(const void *buf, uint16_t size)$/;"	f
+mtq_destroy	mtqueue.c	/^void mtq_destroy(struct mtqueue *q)$/;"	f
+mtq_get_size	mtqueue.c	/^size_t mtq_get_size(const struct mtqueue *q)$/;"	f
+mtq_init	mtqueue.c	/^void mtq_init(struct mtqueue *q)$/;"	f
+mtq_is_empty	mtqueue.c	/^int mtq_is_empty(const struct mtqueue *q)$/;"	f
+mtq_pop_front	mtqueue.c	/^void *mtq_pop_front(struct mtqueue *q, size_t *len)$/;"	f
+mtq_push_back	mtqueue.c	/^int mtq_push_back(struct mtqueue *q, void *dp, size_t len)$/;"	f
+mtq_signal	mtqueue.c	/^void mtq_signal(struct mtqueue *q)$/;"	f
+mtq_wait	mtqueue.c	/^void mtq_wait(struct mtqueue *q)$/;"	f
+mtqueue	mtqueue.h	/^struct mtqueue {$/;"	s
+mtqueue_node	mtqueue.h	/^struct mtqueue_node {$/;"	s
+mutex	mtqueue.h	/^	pthread_mutex_t mutex;$/;"	m	struct:mtqueue
+newpkt_callback	psniffer.c	/^static void newpkt_callback(u_char *param, const struct pcap_pkthdr *pkthdr, const u_char *packet)$/;"	f	file:
+next	mtqueue.h	/^	struct mtqueue_node *next;$/;"	m	struct:mtqueue_node	typeref:struct:mtqueue_node::mtqueue_node
+pcaph	imanet.h	/^	pcap_t *pcaph;  \/** pcap handler *\/$/;"	m	struct:imanet_handler
+pid	error_helper.c	/^static pid_t pid;$/;"	v	file:
+pkt_valid	psniffer.c	/^static int pkt_valid(void *p, const struct pcap_pkthdr *ph)$/;"	f	file:
+port	imanet.h	/^	uint16_t port;  \/** port number - not used yet *\/$/;"	m	struct:imanet_handler
+prev	mtqueue.h	/^	struct mtqueue_node *prev;$/;"	m	struct:mtqueue_node	typeref:struct:mtqueue_node::mtqueue_node
+psniffer_start_thread	psniffer.c	/^pthread_t psniffer_start_thread(struct imanet_handler *ih)$/;"	f
+q_sz	mtqueue.c	/^static volatile size_t q_sz = 0;$/;"	v	file:
+recv_thrd	imanet.h	/^	pthread_t recv_thrd;  \/** receiver thread handler *\/$/;"	m	struct:imanet_handler
+run_sniffer	psniffer.c	/^static void *run_sniffer(void *param)$/;"	f	file:
+show_usage	main_rcv.c	/^static void show_usage(const char *prgname)$/;"	f	file:
+show_usage	main_snd.c	/^static void show_usage(const char *prgname)$/;"	f	file:
+start_thread	psniffer.c	/^static pthread_t start_thread(struct imanet_handler *ih)$/;"	f	file:
+unlockq	mtqueue.c	/^static inline void unlockq(struct mtqueue *q)$/;"	f	file:
+warn_log	error_helper.h	60;"	d
+warn_log_n	error_helper.h	67;"	d
